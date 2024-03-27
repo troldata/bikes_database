@@ -1,6 +1,6 @@
 --  Create view with information about the most popular bikes in sales over the last 30 days.
 
-CREATE VIEW vSalesLastMonth AS
+CREATE VIEW v_sales_last_month AS
 SELECT o.order_date,
 	p.product_name,
 	SUM(quantity) AS sum_quantity,

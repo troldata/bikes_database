@@ -1,4 +1,4 @@
-# Bikes
+# Stock management for the bicycle shop chain.
 
 Efficient inventory management allows to optimize delivery processes and ensure the necessary inventory in each store. This helps improve customer service and prevent missed sales.
 In this work, the database model of a bicycle shop chain in PostgreSQL is used. Analysis of sales and inventory data was conducted to sell out unpopular models and order popular bikes in stock. The process of loading (ETL-process) new data about the bikes arriving in the warehouse has been developed and automated.
